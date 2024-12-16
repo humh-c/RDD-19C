@@ -18,7 +18,7 @@ run: python val_yolo11.py
 
 # Visualization of results
 
-![this is YOLO11 Confusion Matrix](Fig/confusion_matrix_yolo11.png)
+![this is YOLO11 Confusion Matrix](confusion_matrix_yolo11.png)
 
 
 
