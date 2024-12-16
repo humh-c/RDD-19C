@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("/runs/detect/train_end/weights/best.pt")
+model = YOLO("best.pt")
 results = model.val(data="RDD-19c.yaml")
 print(results)
 
