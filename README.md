@@ -14,6 +14,7 @@ need to convert our coco data to yolo: python coco2yolo.py # Change the path
 
 # validation
 model link :https://drive.google.com/file/d/1qgr2dARhaZgv-InQ23j9WHA18McKDZdD/view?usp=drive_link
+
 run: python val_yolo11.py
 
 # Visualization of results
