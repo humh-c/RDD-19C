@@ -6,22 +6,22 @@ test: val2017.txt # 20288 of 40670 images, submit to https://competitions.codala
 
 # Classes
 names:
-  0: banjiaoduanlie
-  1: biaoxianquesun
-  2: biaozhipai
-  3: boluo
-  4: buding
-  5: chezhe
-  6: guilie
-  7: hulan
-  8: jinggai
-  9: jishui
-  10: kengdong
-  11: lukuangcha
-  12: mianbanposui
-  13: xianlie
-  14: yongbao
-  15: zawu
-  16: zhedangjiaotongbiaozhipai
-  17: kengcao
-  18: lugu roaddamage
+  0: Corner Break
+  1: Pavement Marking Defects
+  2: Other Traffic Sign Defects
+  3: Pavement ravelling
+  4: Post-repair defect
+  5: Pavement Rutting
+  6: Alligator Cracking
+  7: Defective Guardrails
+  8: Manhole Cover Damage
+  9: Ponding
+  10: Hole
+  11: Manhole Height Difference
+  12: Shattered Slab
+  13: Linear Cracking
+  14: Bump
+  15: Debris
+  16: Traffic sign occlusion
+  17: Pothole
+  18: Exposed Aggregate
