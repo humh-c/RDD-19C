@@ -1,12 +1,13 @@
 #Towards A Real-World Road Damage Detection Dataset
 
-For now, we are releasing the val dataset and training/evaluation scripts, but we will release the full RDD-19C dataset as soon as a future paper receives it.
+For now, we are releasing the val(mini) dataset and training/evaluation scripts, but we will release the full RDD-19C dataset as soon as a future paper receives it.
 
-#Val Dataset download link:
+#Val Dataset download link: https://drive.google.com/file/d/1m_JCFbFF8S0HqxVj0_72R6Kmbe_t4teQ/view?usp=drive_link
 
 Full dataset, coming soon
 # Environment preparation
-yolo11 in the paper uses ultralytics for training and testing. We need to prepare the ultralytics environment first: pip install ultralytics
+yolo11 in the paper uses ultralytics for training and testing. 
+We need to prepare the ultralytics environment: pip install ultralytics
 
 
 # Data preparation
