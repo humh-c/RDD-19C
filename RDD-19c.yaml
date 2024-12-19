@@ -1,10 +1,10 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: data # dataset root dir
+path: ./RDD-19C/dataset # dataset root dir
 train: train2017.txt # train images (relative to 'path') 118287 images
-val: val2017.txt # val images (relative to 'path') 5000 images
-test: val2017.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+val: open_val.txt # val images (relative to 'path') 5000 images
+test: open_val.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
-# Classes
+# Classes  
 names:
   0: Corner Break
   1: Pavement Marking Defects
@@ -25,3 +25,25 @@ names:
   16: Traffic sign occlusion
   17: Pothole
   18: Exposed Aggregate
+  
+# We trained the model before we formally defined the disaster name. The correspondence between strings and labels is as follows.
+#names: 
+#0: 'banjiaoduanlie'
+#1: 'biaoxianquesun'
+#2: 'biaozhipai'
+#3: 'boluo'
+#4: 'buding'
+#5: 'chezhe'
+#6: 'guilie'
+#7: 'hulan'
+#8: 'jinggai'
+#9: 'jishui'
+#10: 'kengdong'
+#11: 'lukuangcha'
+#12: 'mianbanposui'
+#13: 'xianlie'
+#14: 'yongbao'
+#15: 'zawu'
+#16: 'zhedangjiaotongbiaozhipai'
+#17: 'kengcao'
+#18: 'lugu roaddamage'
